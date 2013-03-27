@@ -1,0 +1,19 @@
+Math::BaseMulti - a perl module for creating identifiers with a per digit base
+
+DESCRIPTION
+
+  Math::BaseMulti can be used to create identifiers with a base defined per digit.
+
+  The module provides conversion to/from such identifiers.
+
+DEPENDENCIES
+  Math::BaseMulti requires Moose.
+
+COPYRIGHT AND LICENSE
+  Copyright 2012-2013 by Markus Benning
+
+  This library is free software; you can redistribute it and/or modify it
+  under the same terms as Perl itself.
+
+
+
