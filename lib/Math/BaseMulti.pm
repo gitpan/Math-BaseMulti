@@ -1,6 +1,8 @@
 package Math::BaseMulti;
+# ABSTRACT: creating identifiers with a per digit base
 
 use Moose;
+our $VERSION = '1.01'; # VERSION
 
 has 'digits' => (
 	is => 'ro',

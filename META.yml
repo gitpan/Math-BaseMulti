@@ -1,20 +1,23 @@
 ---
-abstract: 'a perl module for creating identifiers with a per digit base'
-author: []
+abstract: 'creating identifiers with a per digit base'
+author:
+  - 'Markus Benning <me@w3r3wolf.de>'
+build_requires:
+  Test::More: 0
+  strict: 0
+  warnings: 0
 configure_requires:
-  Module::Build: 0.36
-generated_by: 'Module::Build version 0.3607'
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300020, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Math-BaseMulti
-provides:
-  Math::BaseMulti:
-    file: lib/Math/BaseMulti.pm
 requires:
-  Moose: 1.00
-  perl: v5.6.1
+  Moose: 0
 resources:
-  license: http://dev.perl.org/licenses/
-version: 1.00
+  bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Math-BaseMulti
+  repository: https://github.com/benningm/Math-BaseMulti
+version: 1.01
